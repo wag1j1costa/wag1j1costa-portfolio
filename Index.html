@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>Joao Lemon - UX/UI Designer</title>
+</head>
+
+<body>
+
+    <div class="jl-preloader">
+        <div class="jl-preloader-inner">
+            <img src="images/lemon-loader.svg" alt="Lemon" class="jl-mar-bottom-15">
+            <p class="jl-text-light jl-mar-top-15">Aguarde um pouquinho... estou preparando a limonada</p>
+        </div>
+    </div>
+
+    <div class="jl-overlay"></div>
+
+    <div class="jl-modal jl-bg-black">
+        <div class="jl-modal-header">
+            <h1 class="jl-title jl-text-green">
+                Solicite um Orçamento
+            </h1>
+
+            <button class="jl-close-modal">
+                X
+            </button>
+        </div>
+
+        <div class="jl-modal-body">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p class="jl-text-light">Por favor informe os dados abaixo e eu entrarei em contato o mais breve
+                        possível
+                    </p>
+                </div>
+            </div>
+            <div class="row jl-mar-top-15">
+                <div class="col-sm-12">
+                    <form class="jl-form">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6">
+                                <label for="Nome" class="jl-text-light">Nome</label>
+                                <input type="text" name="Nome" id="jl-nome" class="jl-field">
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <label for="Email" class="jl-text-light">E-mail</label>
+                                <input type="email" name="Email" id="jl-email" class="jl-field">
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <label for="Telefone" class="jl-text-light">Telefone</label>
+                                <input type="tel" name="Telefone" id="jl-telefone" class="jl-field">
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <label for="Site" class="jl-text-light">Site</label>
+                                <input type="url" name="Site" id="jl-site" class="jl-field">
+                            </div>
+                            <div class="col-sm-12 col-md-12">
+                                <label for="Mensagem" class="jl-text-light">Descreva abaixo o projeto no qual você
+                                    precisa de orçamento.</label>
+                                <textarea name="Mensagem" id="jl-mensagem" rows="6" class="jl-textarea"></textarea>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header class="jl-topbar">
+        <div class="jl-logo">
+            <img src="images/logo.svg" alt="Logo Joao Lemon UI/UX Designer">
+        </div>
+
+        <nav class="jl-menu">
+            <a href="#">Home</a>
+            <a href="#">Projetos</a>
+            <a href="#">Sobre</a>
+
+        </nav>
+
+    </header>
+
+    <div class="jl-contact-info jl-bg-black jl-text-light">
+        <div class="jl-contact-info-inner">
+            <h2 class="jl-title jl-text-green">Contato</h2>
+            <p>hello@joaolemon.com</p>
+            <p>+55 (00) 9 9999 8888</p>
+            <div class="jl-social-links">
+                <a href="#" class="jl-social">
+                    <img src="images/icon-instagram.svg" alt="Instagram">
+                </a>
+                <a href="#" class="jl-social">
+                    <img src="images/icon-twitter.svg" alt="Twitter">
+                </a>
+                <a href="#" class="jl-social">
+                    <img src="images/icon-dribbble.svg" alt="Dribble">
+                </a>
+            </div>
+        </div>
+        <div class="jl-corner"></div>
+    </div>
+
+    <div class="jl-btn-contact"></div>
+
+    <div class="jl-page-wrapper">
+
+        <section class="jl-full-height jl-first-section" id="jl-home-presentation">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 col-md-3 offset-md-2 jl-display-text">
+                        <h1 class="jl-title jl-text-green jl-title-big">Olá</h1>
+                        <p class="jl-text-light">Meu nome é <span class="jl-text-green">João Lemon</span> ipsum dolor
+                            sit amet consectetur adipisicing elit. Dicta eligendi expedita earum blanditiis ullam.
+                            Molestiae quia exercitationem tenetur ipsum, adipisci assumenda magni ipsam ut aliquam
+                            maiores natus voluptate eos atque?</p>
+                        <button class="jl-btn jl-btn-large jl-btn-green jl-mar-top-15">Solicite um Orçamento</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="jl-scroll-down">
+                <div class="jl-arrow-down">
+                    <img src="images/arrow-down.svg" alt="Role a Página">
+                </div>
+            </div>
+        </section>
+
+        <section class="jl-full-height">
+            Section 2
+        </section>
+    </div>
+
+    <script src="js/main.js">
+    </script>
+
+</body>
+
+</html>
