@@ -437,6 +437,26 @@ p, label {
 
     }
 
+    .jl-slider-container {
+        background-color: white;
+        display: block;
+        overflow: hidden;
+    }
+
+    .jl-slider-list {
+        width: auto;
+        height: 700px;
+        display: block;
+        background-color: deeppink;
+        list-style: none;
+    }
+
+    .jl-slider-item {
+        display: block;
+        height: 500px;
+        float: left;
+    }
+
 }
 
 @media screen and (min-width: 576px){
@@ -687,4 +707,24 @@ p, label {
 .jl-no-radius-left {
     border-top-left-radius: 0;
     border-bottom-right-radius: 0;
+}
+
+.red {
+    background: red;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.blue {
+    background: blue;
+}
+
+.purple {
+    background: purple ;
+}
+
+.green {
+    background: green;
 }
